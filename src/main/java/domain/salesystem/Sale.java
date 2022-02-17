@@ -26,8 +26,7 @@ public class Sale extends Transaction {
         super();
     }
 
-    public Sale(int invoiceID, Date invoiceDate,
-                int status, Shop seller, Customer buyer) {
+    public Sale(int invoiceID, Date invoiceDate, int status, Shop seller, Customer buyer) {
         super();
         this.invoiceID = invoiceID;
         this.invoiceDate = invoiceDate;
