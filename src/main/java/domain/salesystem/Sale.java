@@ -18,9 +18,9 @@ public class Sale extends Transaction {
     private Date invoiceDate;
     private int status;
     private double totalAmount;
-    domain.shopsystem.Shop seller;
-    domain.customersystem.Customer buyer;
-    ArrayList<SalesLineItem> items;
+    private Shop seller;
+    private Customer buyer;
+    private ArrayList<SalesLineItem> items;
 
     public Sale() {
         super();

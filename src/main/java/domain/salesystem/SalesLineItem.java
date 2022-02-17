@@ -9,7 +9,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @Getter
 @Setter
-@ToString
+
 public class SalesLineItem {
     private int itemID;
     private int count;
