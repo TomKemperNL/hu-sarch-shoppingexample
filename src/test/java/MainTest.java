@@ -1,5 +1,3 @@
-package test;
-
 import java.util.ArrayList;
 
 import domain.customersystem.Address;
