@@ -7,8 +7,9 @@ import domain.shopsystem.*;
 public class Sale extends Transaction {
 	private int invoiceID; 
 	private Date invoiceDate; 
-	private int status; 
-	private double totalAmount; 
+	private int status;
+
+	private double totalAmount;
 	domain.shopsystem.Shop seller;
 	domain.customersystem.Customer buyer;
 	ArrayList<SalesLineItem> items;
@@ -84,6 +85,10 @@ public class Sale extends Transaction {
 
 	public ArrayList<SalesLineItem> getItems() {
 		return items;
+	}
+
+	public double getTotalAmount() {
+		return totalAmount;
 	}
 
 	@Override
